@@ -16,7 +16,7 @@ GROUP BY e.name, em.managerId
 HAVING COUNT(*) >= 5;
 
 
---Other Solutions
+--Other Solution
 
 SELECT name FROM Employee
 WHERE id IN (
